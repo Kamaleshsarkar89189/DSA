@@ -1,0 +1,74 @@
+Data Structures - Algorithms Basics
+
+From the data structure point of view, following are some important categories of algorithms −
+
+    Search − Algorithm to search an item in a data structure.
+
+    Sort − Algorithm to sort items in a certain order.
+
+    Insert − Algorithm to insert item in a data structure.
+
+    Update − Algorithm to update an existing item in a data structure.
+
+    Delete − Algorithm to delete an existing item from a data structure.
+
+    Traversal - Algorithm to visiting or accessing each element in a data structure systematically.
+
+Why the Analysis of Algorithm is important?
+    In the analysis of the algorithm, it generally focused on CPU (time) usage, Memory usage, Disk usage, and Network usage. All are important, but the most concern is about the CPU time. Be careful to differentiate between:
+
+    Performance: How much time/memory/disk/etc. is used when a program is run. This depends on the machine, compiler, etc. as well as the code we write.
+    Complexity: How do the resource requirements of a program or algorithm scale, i.e.  what happens as the size of the problem being solved by the code gets larger.
+    Note: Complexity affects performance but not vice-versa.
+
+Why Analysis of Algorithms is important?
+
+    * To predict the behavior of an algorithm without implementing it on a specific computer.
+    * It is impossible to predict the exact behavior of an algorithm. There are too many influencing factors.
+    * The analysis is thus only an approximation; it is not perfect.
+    * More importantly, by analyzing different algorithms, we can compare them to determine the best one for our purpose.
+
+Types of Asymptotic Notations in Complexity Analysis of Algorithms
+
+     Asymptotic notations are mathematical tools to represent the time complexity of algorithms for asymptotic analysis.
+
+    Asymptotic Notations:
+
+    * These notations provide a concise way to express the behavior of an algorithm’s time or space complexity as the input size approaches infinity.
+
+    * Asymptotic analysis allows for the comparison of algorithms’ space and time complexities by examining their performance characteristics as the input size varies.
+
+    * By using asymptotic notations, such as Big O, Big Omega, and Big Theta, we can categorize algorithms based on their worst-case, best-case, or average-case time or space complexities, providing valuable insights into their efficiency.
+
+There are mainly three asymptotic notations:
+
+    1. Big-O Notation (O-notation)
+    2. Omega Notation (Ω-notation)
+    3. Theta Notation (Θ-notation)
+
+Time-Space Trade-Off in Algorithms
+    A tradeoff is a situation where one thing increases and another thing decreases. It is a way to solve a problem in:
+    
+    * Either in less time and by using more space, or
+    * In very little space by spending a long amount of time.
+
+Types of Space-Time Trade-off
+
+    * Compressed or Uncompressed data
+    * Re Rendering or Stored images
+    * Smaller code or loop unrolling
+    * Lookup tables or Recalculation
+
+    For more information go to this link https://www.geeksforgeeks.org/time-space-trade-off-in-algorithms/
+
+* Compressed or Uncompressed data: A space-time trade-off can be applied to the problem of data storage. If data stored is uncompressed, it takes more space but less time. But if the data is stored compressed, it takes less space but more time to run the decompression algorithm. 
+
+* Re-Rendering or Stored images: In this case, storing only the source and rendering it as an image would take more space but less time i.e., storing an image in the cache is faster than re-rendering but requires more space in memory.
+
+* Smaller code or Loop Unrolling: Smaller code occupies less space in memory but it requires high computation time that is required for jumping back to the beginning of the loop at the end of each iteration. Loop unrolling can optimize execution speed at the cost of increased binary size. It occupies more space in memory but requires less computation time.
+
+* Lookup tables or Recalculation: 
+Lookup Tables: Store precomputed values, reducing computation time but increasing memory usage.
+
+Recalculation: Compute values as needed, saving memory but requiring more computation time.
+Lookup = Faster, more memory; Recalculation = Slower, less memory.
