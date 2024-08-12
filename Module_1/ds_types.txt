@@ -1,0 +1,40 @@
+Data Structures and Types
+
+Data Structure is two types
+ 
+ 1. Linear Data Structure
+ 2. Non-Linear Data Structure
+
+Linear Data Structures
+
+The data is stored in linear data structures sequentially.Linear data structures are usually easy to implement but since the memory allocation might become complicated, time and space complexities increase. Few examples of linear data structures include −
+ 
+    * Arrays
+    * Linked Lists
+    * Stacks
+    * Queues
+
+    They are - static and dynamic data structures.
+
+Static Linear Data Structures
+
+    In Static Linear Data Structures, the memory allocation is not scalable. Once the entire memory is used, no more space can be retrieved to store more data. 
+
+        The best example for static linear data structures is an array.
+
+Dynamic Linear Data Structures
+
+    In Dynamic linear data structures, the memory allocation can be done dynamically when required.
+
+        Few examples of dynamic linear data structures include: linked lists, stacks and queues.
+
+Non-Linear Data Structures
+
+Non-Linear data structures store the data in the form of a hierarchy.
+
+Few types of non-linear data structures are −
+
+    * Graphs
+    * Trees
+    * Tries
+    * Maps
