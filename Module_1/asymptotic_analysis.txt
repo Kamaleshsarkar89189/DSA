@@ -10,7 +10,7 @@ Basically there are three types of widely used asymptotic notations.
 
     1. Big Oh notation (O)
     2. Big Omega notation(Ω)
-    3. Big theta notation(θ)
+    3. Big theta notation(θ) ---> widely used one!
 
 Big Oh(O): Asymptotic Upper Bound
 
@@ -21,7 +21,7 @@ Big Oh(O): Asymptotic Upper Bound
     f(n)⩽c.g(n)for n>n0 in all case
 
     or, If f(n) describes running time of an algorithm; f(n) is O(g(n)) if there exists positive constants C and n0(n not) such that 
-    0<=f(n) <=Cg(n) for all n>=n0
+    0<=f(n) <=Cg(n) for all n>=n0 ; here n used to give upper bound on a function
     If a function is O(n), it is automatically O(n^2) as well
 
 Hence, function g(n) is an upper bound for function f(n), as g(n) grows faster than f(n).
@@ -61,3 +61,15 @@ Theta, θ: Asymptotic Tight Bound
     for all sufficiently large value of n. Here n is a positive integer.
 
     This means function g is a tight bound for function f.
+
+    The equation simply means there exist positive constant C1 and C2 such that f(x) is sandwiched between C2g(n) and C1 g(n)
+
+Which one of these to use ?
+    Since Big theta gives a better picture of runtime for a given algorithm, most of the interviewers expect you to provide an answer in terms of Big theta they say "Order of".
+
+Increasing order of Common runtimes 
+
+    1 < log n < n < nlog n < n^2 < n^3 < 2^n < n^n
+  Better         common runtime              worse
+                to beter to worse
+
