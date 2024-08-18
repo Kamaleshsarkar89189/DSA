@@ -1,3 +1,86 @@
 Queue Data Structure
 
 What is a Queue?
+
+    A queue is a linear data struture where elements are stored in the FIFO(First in First Out) principle where the first element inserted would be the first element to be accessed. A queue is an Abstract Data Type (ADT) similar to stack, the thing that makes queue different from stack is that a queue is open at both its ends.
+
+Representation of Queues
+
+   Insertion: enqueue()---> 12      23      44      9       13---->Deletion: dequeue()
+
+                Queue: FIFO Operation
+
+Basic Operations in Queue
+
+    The most use operations in queue data ADT include: enqueue(), dequeue(), peek(), isFull(), isEmpty(). These are build in operations.
+
+    * Queue use two pointers - front (helping in enqueueing)
+                                and 
+                                rear (helping in dequeueing) 
+
+Queue Insertion Operation: Enqueue()
+
+    The enqueue() is used to insert elements into the stack.
+
+    Algorithm
+
+    1. START
+    2. Check if the queue is full.
+    3. If the queue is full, produce overflow error and exit.
+    4. If the queue is not full, increment rear pointer to point 
+    the next empty space.
+    5. Add data element to the queue location, where the rear 
+    is pointing.
+    6. return success.
+    7. END
+
+    * Code in the enqueue.c file.
+
+Queue Deletion Operation: dequeue()
+
+    The dequeue() is a data manipulation operation that is used to remove elements from the stack.
+
+Algorithm
+
+    1. START
+    2. Check if the queue is empty.
+    3. If the queue is empty, produce underflow error and exit.
+    4. If the queue is not empty, access the data where front 
+       is pointing.
+    5. Increment front pointer to point to the next available 
+       data element.
+    6. Return success.
+    7. END
+
+Queue - The peek() Operation
+
+    The peek() is an operation which is used to retrieve the frontmost element in the queue, without deleting it.
+
+Algorithm
+
+    1. Start
+    2. Return the element at the front of the queue
+    3. END
+
+Queue - The isFull() Operation
+
+    The isFull() operation verifies whether the stack is full.
+
+Algorithm
+
+    1. START
+    2. If the count of queue elements equals the queue size,
+    return true
+    3. Otherwise, return false
+    4. END
+
+Queue - The isEmpty() operation
+
+    The isEmpty() operation verifies whether the stack is empty.
+
+Algorithm
+
+    1. START
+    2. If the count of queue elements equals zero, return true
+    3. Otherwise, return false
+    4. END

@@ -1,0 +1,71 @@
+Stack Data Structure
+
+What is a Stack?
+
+    A Stack is a linear data structure where element are stored in the LIFO(Last in First Out) principle where the last element inserted would be the first element to be deleted. A Stack is an Abstract Data Type(ADT).
+
+    At any given time, we can only access the top element of a stack.
+
+Stack Basic Operations
+
+    1. push()
+    2. pop()
+    3. isFull()
+    4. isEmpty()
+
+Stack Insertion: push()
+
+    The push() is an operation that inserts elements into the stack.
+
+Algorithm
+
+    1. Check if the stack is full.
+    2. If the stack is full, produces an error and exit,
+    3. If the stack is not full, increments top to point next empty space.
+    4. Adds data element to the stack location, where top is pointing.
+    5. Returns success.
+
+
+Stack Deletion: pop()
+
+    The pop() is a data manipulation operation which removes elements from the stack.
+
+Algorithm
+
+    1. Check if the stack is empty.
+    2. If the stack is empty, produces an error and exit.
+    3. If the stack is not empty, accesses the data element at which top is pointing.
+    4. Decreases the value of top by 1.
+    5. Returns success.
+
+Retrieving topmost Element from Stack: peek()
+
+    The peek() is an operation retrives the topmost element within the stack, without deleting it. 
+
+Algorithm
+
+    1. START
+    2. Return the element at the top of the stack
+    3. END
+
+Verifying whether the Stack is full: isFull()
+
+    The isFull() operation checks whether the stack is full.
+
+Algorithm
+
+    1. START
+    2. If the size of the stack is equal to the top position of the stack, the stack is full. Return 1.
+    3. Otherwise, return 0.
+    4. END
+
+Verifying whether the Stack is empty: isEmpty()
+
+    The isEmpty() operation Verifies whether the stack is empty.
+
+Algorithm
+
+    1. START
+    2. If the top value is -1, the stack is empty. Return 1.
+    3. Otherwise, return 0.
+    4. END
