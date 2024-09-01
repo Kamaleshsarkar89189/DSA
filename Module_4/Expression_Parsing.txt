@@ -1,0 +1,50 @@
+Expression Parsing in Data Structure
+
+     Expression parsing is a term used in a programming language to evaluate arithmetic and logical expressions.
+
+    Arithmetic expression is known as a notation. An arithmetic expression can be written in three different but equivalent notation. These notation are -
+
+        * Infix notation
+        * Prefix(Polish) Notation 
+        * Postfix(Reverse-Polish) Notation
+
+Infix Notation: 
+
+    Where operators are used in between operands. It is easy for us humans to read, write, and speak in infix notation but the same does not go well computing devices.
+
+Prefix Notation:
+
+    In this notation, operators is prefixed to operands, operator is written ahead of operands. For example, +ab. Prefix notation is also known as Polish Notation.
+
+Postfix Notation: 
+
+    This notation style is known as Reverse Polish Notation. The operator is Postfix to the operands. For example, ab+. This is equivalent to its infix notation a+b.
+
+    Sr.No.	Infix Notation	    Prefix Notation	    Postfix Notation
+    1	    a + b	            + a b	            a b +
+    2	    (a + b) ∗ c	        ∗ + a b c	        a b + c ∗
+    3	    a ∗ (b + c)	        ∗ a + b c	        a b c + ∗
+    4	    a / b + c / d       + / a b / c d	    a b / c d / +
+    5	    (a + b) ∗ (c + d)   ∗ + a b + c d	    a b + c d + ∗
+    6	    ((a + b) ∗ c) - d   - ∗ + a b c d	    a b + c ∗ d -
+
+Associativity
+
+    Associativity describe the rule where operators with the same precedence appear in an expression. For example, a + b - c, so the expression will be evaluate as (a + b) - c.
+
+
+    Sr.No.      Operator                Precedence              Associativity
+    1           Expression ^            Highest                 Right Associativity
+    2            ( * ) & ( / )          Second Highest          Left Associativity
+    3           ( + ) & ( - )           Lowest                  Left Associativity
+
+Infix to Postfix convention Rules using stack:-
+
+    1. If the stack is empty or contains left parenthesis on top if the operator come then push.
+    2. If the incoming symbol is left parenthesis push into the stack
+    3. If the incoming symbol is right parenthesis then pop the stack and print the operator until left parenthesis is poped.
+    4. If the incoming symbol is higher precedence then top of the stack push it on the stack.
+    5. If the incoming symbol is has lower precedence then the top of the stack pop and print the top.
+    6. If the incoming operators aginst the new top of the 
+    7. If the 
+    8. At the end of the expression

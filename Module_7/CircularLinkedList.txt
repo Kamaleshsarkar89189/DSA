@@ -1,0 +1,65 @@
+Circular Linked List Data Structure
+
+    Circular Linked List is a variation of Linked List in which the first element ponints to the last element and the last element ponints to the first element. 
+
+
+Singly Linked List as Circular
+
+    Head ---> |Data Items|Next| ---> |Data Items|Next|
+                    |                              |
+                    !                              !
+                    ^                              |
+                    |                              |
+                    <..............................
+
+Doubly Linked List as Circular
+
+        .........................................
+        |                                        |
+        |                                        |
+Head-->|Prev|A|Next| <---> |Prev|B|Next| <---> |Prev|C|Next|
+        |                                               |
+        |................................................
+
+Basic Operation in Circular Linked List
+
+    1. Insert - Insert an element at the start of the list.
+    2. Delete - Deletes an element from the start of the list.
+    3. Dispaly - Dispaly the list.
+
+Circular Linked List - Insertion Operation
+
+    Algorithm
+
+        1. START
+        2. Check it the list is empty
+        3. If the list is empty add the node and point the head to the node
+        4. If the list is not empty, link the exiting head as the next node to the new node.
+        5. Make the new node as the new head.
+        6. END
+
+Circular Linked List - Deletion Operation
+
+    1. START
+    2. If the list is empty, then the program is returned.
+    3. If the list is not empty, we traverse the list using a 
+   current pointer that is set to the head pointer and create 
+   another pointer previous that points to the last node.
+    4. Suppose the list has only one node, the node is deleted 
+   by setting the head pointer to NULL.
+    5. If the list has more than one node and the first node is to 
+   be deleted, the head is set to the next node and the previous
+   is linked to the new head.
+    6. If the node to be deleted is the last node, link the preceding 
+   node of the last node to head node.
+    7. If the node is neither first nor last, remove the node by 
+   linking its preceding node to its succeeding node.
+    8. END
+
+Circular Linked List - Displaying the List
+
+    Algorithm
+
+        1. START
+        2. Walk through all the nodes of the list and print them
+        3. END

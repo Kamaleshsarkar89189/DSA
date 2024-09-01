@@ -1,0 +1,147 @@
+Linked List Data Structure
+
+What is Linked List?
+
+    A linked list is a linear data structure which can store a collection of "nodes". 
+    Linked lists nodes are not stored at a contiguous location, rather they are linked using pointers to the different memory locations. A node consists of the data value and a pointer to the address of the next node within the linked list.
+
+    Head --->| data | next ---> | data | next | ---> | data | next | ---> null
+
+    Head point to the first node. Which holds actual data (value) and the next pointer which holds the memory address of the next node in the lik list. The last node is called he tail node in the list which points to null indicating the end of the list.
+
+Linked Lists vs Arrays
+
+    Array are fixed lenghth where linked list are dynamic in size. Array can accomodate similar types of data types and linked lists can store various nodes of different data types.
+
+Types of Linked List
+
+    1. Singly Linked Lists
+    2. Doubly Linked Lists
+    3. Circular Linked Lists
+
+Singly Linked List
+
+    Singly linked list contians two "buckets" in one node; one bucket holds the data and the other bucket holds the address of the next node of the list. Traversals can be done in one dirction only as there is only a single link between two nodes of the same list.
+
+        head ---> | data | next ---> | data | next ---> data | next ---> null
+
+Doubly Linked Lists
+
+    Doubly Linked Lists contians three "buckets" in one node; one bucket holds the data  and the other bucket holds the address of the previous and next nodes in the list. The nodes are connected to each other from both sides.
+
+        head ---> | prev | data | next | ---> | prev | data | next |---> null
+
+Circular Linked lists
+
+    Circular linked lists can exits in both singly linked list and doubly linked list.
+
+    The last node and the first node of the Circular linked list are connected, the Traversals in this linked list will go on forever untill it is broken.
+
+        head ---> | prev | data | next | ---> | prev | data  | next | 
+          ^                                                       |
+          |                                                       |
+          |                                                       !
+          !-------------------------------------------------------!                                                    
+Basic Operations in Linked List
+
+    Insertion − Adds an element at the beginning of the list.
+
+    Deletion − Deletes an element at the beginning of the list.
+
+    Display − Displays the complete list.
+
+    Search − Searches an element using the given key.
+
+    Delete − Deletes an element using the given key.
+
+Linked List - Insertion Operation
+
+    Insertion at Beginning
+
+    Algorithm 
+
+        1. START
+        2. Create a node to store the data
+        3. Check if the list is empty
+        4. If the list is empty, add the data to the node and 
+        assign the head pointer to it.
+        5. If the list is not empty, add the data to a node and link to the 
+        current head. Assign the head to the newly added node.
+        6. END
+
+Insertion at Ending
+
+    Algorithm
+
+        1. START
+        2. Create a new node and assign the data
+        3. Find the last node
+        4. Point the last node to new node
+        5. END
+
+Insertion at a Given Position
+
+    1. START
+    2. Create a new node and assign data to it
+    3. Iterate until the node at position is found
+    4. Point first to new first node
+    5. END
+
+Linked List - Deletion Operation
+
+    Deletion is also a more than one step process.
+      
+      For more details go to this link https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm
+
+Deletion at Beginning
+
+    Algorithm
+
+        1. START
+        2. Assign the head pointer to the next node in the list.
+        3. END
+
+Deletion at Ending
+
+    Algorithm
+    1. START
+    2. Iterate until you find the second last element in the list.
+    3. Assign NULL to the second last element in the list.
+    4. END
+
+Deletion at a Given Position
+
+    Algorithm 
+
+        1. START
+        2. Iterate until find the current node at position in the list.
+        3. Assign the adjascent node of current node in the list to its previous node.
+        4. END
+
+Linked List - Reversal Operation
+
+    Algorithm
+
+        1. START
+        2. We use three pointers to perform the reversing: 
+        prev, next, head.
+        3. Point the current node to head and assign its next value to the  prev node.
+        4. Iteratively repeat the step 3 for all the nodes in the list.
+        5. Assign head to the prev node.
+
+Linked List - Search Operation
+
+    Algorithm
+
+        1. START
+        2. If the list is not empty, Iteratively Check if the list contians the key
+        3. If the key element is not present in the list, unsuccessful Search.
+        4. END
+
+Linked List - Traversal Operation
+
+    Algorithm
+
+        1. START
+        2. While the list is not empty and did not reach the end of the list, print the data in each node
+        3. END

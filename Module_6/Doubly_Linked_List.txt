@@ -1,0 +1,64 @@
+What is Doubly Linked List?
+
+    A Doubly Linked List is a type of data structure that consists of a sequence of elements called nodes. Each node contians three parts:
+
+        1. Data : The value stored in the node.
+        2. Next Pointer : A reference (or link) to the next node in the list.
+        3. Previous Pointer : A reference to the previous node in the list.
+
+        In singly linked list, where each node only points to the next node, in a doubly linked list, you can move both forward and backward through the list because each node known about both its next and previous neighbors.
+
+Doubly Linked List Representation
+
+    Head ---> |Prev| A |Next| ----> |Prev| B |Next| --->Null
+
+Basic Operations in Doubly Linked List
+
+    Insertion − Adds an element at the beginning of the list.
+
+    Insert Last − Adds an element at the end of the list.
+
+    Insert After − Adds an element after an item of the list.
+
+    Deletion − Deletes an element at the beginning of the list.
+
+    Delete Last − Deletes an element from the end of the list.
+
+    Delete − Deletes an element from the list using the key.
+
+    Display forward − Displays the complete list in a forward manner.
+
+    Display backward − Displays the complete list in a backward manner.
+
+Doubly Linked List - Insertion at the Beginning
+
+    Algorithm 
+
+        1. START
+        2. Create a new node with three variables: prev, data, next.
+        3. Store the new data in the data variable.
+        4. If the list is empty, make the new node as head.
+        5. Otherwise, lint the address of the existing first node to the next variable of the new node, and assign null to the prev variable.
+        6. Point the head to the new node.
+        7. END
+    
+Doubly Linked List - Insertion at the End
+
+    Algorithm
+
+        1. START
+        2. If the list is empty, add the node to the list and point the head to it.
+        3. If the list is not empty, find the last node of the list.
+        4. Create a link between the last in the node in the list and the new node.
+        5. The new node will point to NULL as it is the new last node.
+        6. END
+
+Doubly Linked List - Deletion at the Beginning
+
+    Algorithm
+
+        1. START
+        2. Check the status of the doubly linked list
+        3. If the list is empty, deletion is not possibe.
+        4. If the list is not empty, the head pointer is shifted to the next node.
+        5. END
