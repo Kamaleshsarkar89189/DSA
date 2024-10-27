@@ -74,7 +74,7 @@ There are three Cases which are usualy used to compare various data Structure's 
 Basic DSA Terminologies
 
     * Data - Data are values or set of values.
-    * Data Item - Data item refers to single unit of vlaues.
+    * Data Item - Data item refers to single unit of values.
     * Group Items - Data items that are divided into sub items are called as Group Items.
     * Elementary Items - Data items that cannot be divided are called as Elementary Items.
     * Attribute and Entity − An entity is that which contains certain attributes or properties, which may be assigned values.
