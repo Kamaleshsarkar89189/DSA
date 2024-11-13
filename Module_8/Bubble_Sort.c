@@ -29,7 +29,7 @@ int main() {
     
     bubble_sort(arr, size);
     
-    printf("Ascending Order:\n");
+    printf("Accending Order:\n");
     for (int i = 0; i < size; i++) {
         printf("%d\t", arr[i]);
     }
