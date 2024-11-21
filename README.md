@@ -1,23 +1,24 @@
-Module 1 :
-    asymptotic_analysis.txt
-    ds_types.txt
-    dsa_basic_1.txt
-    what_is_DS_1.txt
-Module 2 :
-    array.txt
-    queue.txt
-    assignment.c
-    circular_implementation.c
-    dequeue.c
-    enqueue.c
-    FromLab.c
-    isEmpty.c
-    isFull.c
-    peek.c
-Module 3 :
-    stack.txt
-    complete_implementation.c
-    from_lab.c
+Module 1 :<br>
+    asymptotic_analysis.txt<br>
+    ds_types.txt<br>
+    dsa_basic_1.txt<br>
+    what_is_DS_1.txt<br>
+    <br>
+Module 2 :<br>
+    array.txt<br>
+    queue.txt<br>
+    assignment.c<br>
+    circular_implementation.c<br>
+    dequeue.c<br>
+    enqueue.c<br>
+    FromLab.c<br>
+    isEmpty.c<br>
+    isFull.c<br>
+    peek.c<br>
+Module 3 :<br>
+    stack.txt<br>
+    complete_implementation.c<br>
+    from_lab.c<br>
     isEmpty.c
     isFull.c
     peek.c
