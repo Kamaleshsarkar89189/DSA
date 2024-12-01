@@ -1,0 +1,71 @@
+Tree Data Structure
+
+Tree is a non-linear abstract data type with a hierarchy-based Structure. It consists of nodes(where the data is stored) that are connected via links. The tree data structure stems from a single node called a root node and has subtrees connected to the root.
+
+Important Terms
+
+. Path - Path refers to the sequence of nodes along the edges of a tree.
+. Root - The node at the top of the tree is called root.
+. Parent - Any node expect the root node has one edge upward to a node called Parent.
+. Child - The node below a given node connected by its edge downward is called its Child node.
+. Leaf − The node which does not have any child node is called the leaf node.
+
+. Subtree − Subtree represents the descendants of a node.
+
+. Visiting − Visiting refers to checking the value of a node when control is on the node.
+
+. Traversing − Traversing means passing through nodes in a specific order.
+
+. Levels − Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandchild is at level 2, and so on.
+
+. Keys − Key represents a value of a node based on which a search operation is to be carried out for a node.
+
+
+Types of Trees
+
+    1. General Trees
+    2. Binary Trees
+    3. Binary Search Trees
+
+
+1. General Trees
+
+    General trees are unsorted tree data structure where the root has minimum 0 or maximun `n` subtrees.
+
+2. Binary Trees
+    
+    Binary trees are general trees in which the root node can only hold up to maximun 2 subtrees: left subtrees and right subtrees.
+
+    Full Binary Tree : Where every node has either 0 or 2 child nodes.
+
+    Complete Binary Tree: Where all the leaf nodes must be on the same level.
+
+    Perfect Binary Tree: Where all the leaf nodes are on the same level and every node expect leaf nodes have 2 children.
+
+Binary Search Trees
+
+    A Binary Search Tree is a data structure consisting of nodes, where each node contains a key, left child, right child.
+
+Advantages and Disadvantages
+
+    Advantages: 
+        
+        * Easy to implement.
+        * Efficient searching, insertion, and deletion in O(log n) time for balanced BSTs.
+
+    Disadvantages: 
+
+        * Unbalanced BSTs can degrade to O(n) operation in the worst case.
+        * Requires balancing mechanisms for optimal performance(e.g., AVL trees, Red-Black trees).
+
+Balanced Binary Search Trees
+
+    There are various types of self-balancing Binary trees-
+
+    * AVL Trees
+    * Red Black Trees
+    * B Trees
+    * B+ Trees
+    * Splay Trees
+    * Priority Search Trees
+    
