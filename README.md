@@ -64,5 +64,11 @@ Module 9 :<br>
     Searching_algorithms.txt<br>
     Binary-Search.c<br>
     Linear_Search.c<br>
+Module 10 : <br>
+    In_Order_Traversal.c<br>
+    Post_Order_traversal.c<br>
+    Pre_Order_traversal.c<br>
+    Tree_Traversal.c<br>
+    Tree.txt<br>
 
         
