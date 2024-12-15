@@ -1,0 +1,106 @@
+AVL Trees
+
+    An AVL Tree is a type of self-balancing binary search tree named after its inventors,
+    Adelson-Velsky and Landis.
+
+Balance Factor:
+
+    * For any node in the tree, the difference between the height of its left and right subtrees(called the balance Factor) is at most 1.
+
+        Balace Factor = height(left subtree) - height(right subtree)
+
+Operations:
+
+    Insertion:
+    Deletion:
+
+
+Rotations:
+
+    1. Left Rotation (LL Imbalance)
+    2. Right Rotation (RR Imbalance)
+    3. Left- Right Rotation (LR Imbalance)
+    4. Right-Left Rotation (RL Imbalance)
+
+LL Rotations
+
+    LL rotation is performed when the node is inserted into the right subtree leading to an unbalanced tree.
+
+
+                12                      5
+                /                       /\
+               /                       /  \
+              5         ==>           2   12
+             /
+            /
+            2
+
+RR Rotations
+
+    RR Rotation is performed when the node is inserted into the left subtree leading to an unbalanced tree.
+
+
+    12                             15
+      \                           /  \
+       \                         /    \
+        15      ==>             12     19
+         \
+          \
+           19
+
+
+LR Rotations
+
+    An LR rotation is used to fix an Imbalance in an AVL tree where a node's left child has a right-heavy subtree.
+
+    Initial Tree (Unbalanced):
+
+    30
+   /
+ 20
+   \
+    25
+
+
+After Left Rotation on 20:
+
+    30
+   /
+ 25
+ /
+20
+
+After Right Rotation on 30:
+
+    25
+   /  \
+ 20    30
+
+
+RL Rotations
+
+    An RL Rotation fixed an Imbalance in an AVL tree where a node's right child has a left-heavy subtree.
+
+Example:
+
+    Initial Tree(Unbalanced)
+
+    20
+     \
+      30
+     /
+    25
+
+After Right Rotation on 30:
+
+    20
+     \
+      25
+        \
+         30
+
+After Left Rotation on 20:
+
+    25
+   /  \
+ 20    30

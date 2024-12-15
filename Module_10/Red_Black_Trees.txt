@@ -1,0 +1,18 @@
+Red Black Trees
+
+    A Red-Black Tree is a type of self-balancing search tree that balanced structure using specific coloring rules.
+
+    Basic Terminology
+
+    1. Node Coloring : Each node is either red or Black.
+    2. Root Node : The root is always Black.
+    3. Red Node : A red node can't have a red child(no two red nodes can be adjacent).
+    4. Black Height Rule : Every path form a node to its descendant leaves must contain the same number of black nodes.
+    5. New Node Insertion : A new node is always inserted as a red node.
+
+Basic Operation of Red-Black Trees
+
+    * Insertion
+    * Deletion
+    * Search
+    
