@@ -65,10 +65,15 @@ Module 9 :<br>
     Binary-Search.c<br>
     Linear_Search.c<br>
 Module 10 : <br>
+    AVL_Trees.txt<br>
+    B_Trees.txt<br>
+    Binary_Search_Tree.c<br>
     In_Order_Traversal.c<br>
     Post_Order_traversal.c<br>
     Pre_Order_traversal.c<br>
+    Red_BLack_Trees.txt<br>
     Tree_Traversal.c<br>
     Tree.txt<br>
+
 
         
