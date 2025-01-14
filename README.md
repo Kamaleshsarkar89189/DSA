@@ -60,6 +60,10 @@ Module 8 :<br>
     Sorting_Algorithms.txt<br>
     Bubble_Sort.c<br>
     Quick_Sort.c<br>
+    Heap_Sort<br>
+    Insertion_Sort.c<br>
+    Merge_Sort.c<br>
+    Selection_Sort.c<br>
 Module 9 :<br>
     Searching_algorithms.txt<br>
     Binary-Search.c<br>
